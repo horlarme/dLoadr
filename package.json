@@ -1,0 +1,29 @@
+{
+  "name": "dloadr",
+  "version": "1.0.0",
+  "description": "A Javascript Loading animation library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horlarme/dLoadr.git"
+  },
+  "keywords": [
+    "loader",
+    "javascript",
+    "loading",
+    "react",
+    "loading",
+    "loading",
+    "animation",
+    "javascript"
+  ],
+  "author": "Lawal Oladipupo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horlarme/dLoadr/issues"
+  },
+  "homepage": "https://github.com/horlarme/dLoadr#readme"
+}
