@@ -39,13 +39,17 @@ export default class Loadr {
         let parent = this._getParentElement();
 
         this.dLoadr.makeElement(parent);
+
+        return this;
     }
 
     remove() {
-        return (this.getDisplayedAnimation()).remove();
+        (this.getDisplayedAnimation()).remove();
+
+        return this;
     }
 
     getDisplayedAnimation() {
-        return document.querySelector(this.id);
+        return document.querySelector(`#${this.id}`);
     }
 }
