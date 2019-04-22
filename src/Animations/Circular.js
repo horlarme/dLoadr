@@ -40,11 +40,11 @@ export default class Circular {
 
     style() {
         let style = `
-                .lds-circle {
+                #${this.id} .lds-circle {
                   display: inline-block;
                   transform: translateZ(1px);
                 }
-                .lds-circle > div {
+                #${this.id} .lds-circle > div {
                   display: inline-block;
                   width: 51px;
                   height: 51px;
