@@ -1,5 +1,5 @@
 {
-  "name": "dloadr",
+  "name": "@horlarme/dloadr",
   "version": "1.0.0",
   "description": "A Javascript Loading animation library",
   "main": "index.js",
