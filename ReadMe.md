@@ -42,7 +42,8 @@ Example: `'body div.loadHere'`, `'#onlyLoadHere'`
 - id: A custom id to be given to the created loading animation. Default is a random string containing DateTime values.
 - color: The color to be giving to the loading animation. Default `"#fff"`
 - text: The text to be displayed under animation. Default `"Loading..."`.
-- type: The type of animation to be displayed. Currently only supported are `"circle"`, `"dualring"`. More to come in 
+- type: The type of animation to be displayed. Currently only supported are `"circle"`, `"facebook"`., `"dualring"`. 
+More to come in 
 coming updates.
 
 ##Todo

@@ -1,5 +1,6 @@
 import Circular from "./Animations/Circular";
 import DualRing from "./Animations/DualRing";
+import Facebook from "./Animations/Facebook";
 
 export default class Loadr {
 
@@ -28,6 +29,9 @@ export default class Loadr {
             case "dualring":
             case "dual_ring":
                 this.dLoadr = new DualRing(this.id, this.color, this.text);
+                break;
+            case "facebook":
+                this.dLoadr = new Facebook(this.id, this.color, this.text);
                 break;
             default:
                 this.dLoadr = new Circular(this.id, this.color, this.text);
