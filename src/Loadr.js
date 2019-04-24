@@ -1,4 +1,5 @@
 import Circular from "./Animations/Circular";
+import DualRing from "./Animations/DualRing";
 
 export default class Loadr {
 
@@ -23,6 +24,11 @@ export default class Loadr {
     _create() {
 
         switch (this.type.toLowerCase()) {
+            case "dual-ring":
+            case "dualring":
+            case "dual_ring":
+                this.dLoadr = new DualRing(this.id, this.color, this.text);
+                break;
             default:
                 this.dLoadr = new Circular(this.id, this.color, this.text);
                 break;
